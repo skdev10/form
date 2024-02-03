@@ -1,0 +1,72 @@
+#map {
+    width: 99%;
+    border: solid #a3101a;
+    height: 620px;
+    background-color: #dd2d2d; 
+    border-radius: 10px;
+    transition: transform 0.3s ease-in-out;
+    position: relative;
+}
+
+#map:hover {
+    transform: scale(1.02);
+}
+
+#cons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#form1 {
+    background: linear-gradient(to right, #ffbb7b, #d45d3e);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+#form1:hover {
+    transform: scale(1.02);
+}
+
+#form1{
+    color: #fff;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    box-sizing: border-box;
+    transition: border-color 0.3s ease-in-out;
+}
+
+input:hover,
+textarea:hover,
+input:focus,
+textarea:focus {
+    border-color: #d45d3e;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #fff;
+    color: #d45d3e;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+button:hover {
+    background-color: #d45d3e;
+    color: #fff;
+}

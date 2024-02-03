@@ -1,0 +1,26 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.slider-container {
+    overflow: hidden;
+    background-color: #333;
+}
+
+.headline-slider {
+    display: flex;
+    animation: marquee 20s linear infinite;
+}
+
+.headline {
+    color: #fff;
+    font-size: 18px;
+    margin-right: 20px;
+    white-space: nowrap;
+}
+
+@keyframes marquee {
+    0% { transform: translateX(100%); }
+    100% { transform: translateX(-100%); }
+}
